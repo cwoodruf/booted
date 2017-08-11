@@ -1,0 +1,6 @@
+DEFAULT centos6
+
+LABEL centos6
+  KERNEL images/centos/6/vmlinuz
+  APPEND initrd=images/centos/6/initrd.img ks=http://10.0.2.4:8081/kickstart/centos-ks.cfg ip=dhcp ksdevice=eth0 ramdisk_size=10000 unsupported_hardware text vnc vncconnect=192.168.0.11:5500 vncpassword=bootstrap
+

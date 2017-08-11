@@ -1,0 +1,12 @@
+# super simple inventory of when a new server booted
+
+log_format booted_log "$remote_addr $time_local";
+server {
+	listen 8080;
+
+	location /booted/ {
+		return 200;
+		access_log /home/cal/centos/inventory/booted_log booted_log;
+	}
+}
+
