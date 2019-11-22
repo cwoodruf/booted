@@ -22,8 +22,6 @@ Your responsibility on the team is to:
 
 Rules
 
-· Timebox this assignment to 4 hours. Focus on the most important aspects based on the 
-  current state of the microservice  and upcoming team priorities.
 · You can implement a simple Greetings microservice using technology stack of your choice 
 · You are free to use the programming language and tools of your choice
 · The following virtualization options are acceptable (in case you choose to focus on this aspect of the assignment): 
